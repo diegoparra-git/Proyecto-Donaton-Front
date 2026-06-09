@@ -93,6 +93,25 @@ Para probar los componentes de donación, terreno y logística, puedes seguir es
 
 Este proyecto es parte de un esfuerzo colaborativo para crear una plataforma de donaciones eficiente y fácil de usar. Componentes estan sujetos a cambios y mejoras continuas, es de conocimiento potenciales riesgos de seguridad, por lo que se recomienda almacenar las rutas de los microservicios en variables de entorno para evitar exponer información sensible en el código fuente.
 
+## Pruebas Unitarias Automatizadas
+El proyecto cuenta con un entorno de pruebas robusto configurado con Vitest y React Testing Library para asegurar la calidad de los componentes de la interfaz y validar la correcta integración (mocking) con el API Gateway.
+
+Para ejecutar las pruebas en tu entorno local, utiliza los siguientes comandos:
+
+- Ejecutar la suite de pruebas:
+```bash 
+npm run test
+```
+
+- Generar el reporte de cobertura de código (Coverage):
+```bash
+npm run coverage
+```
+
+Nota: Las pruebas unitarias garantizan una cobertura superior al 60%, evaluando tanto los flujos exitosos de usuario (Happy Paths) como el manejo defensivo de errores (Sad Paths) al interactuar con los microservicios.
+
+
+
 ## Repositorios relacionados
 - [Backend de Donaton](https://github.com/DamagedGhost/donaton-api)
 - [Microservicio de Donaciones](https://github.com/diegoparra-git/donaton-donaciones)
