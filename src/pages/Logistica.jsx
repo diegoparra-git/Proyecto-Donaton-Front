@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 export default function Logistica({ token }) {
   const [items, setItems] = useState([]);
   const [nuevo, setNuevo] = useState({ item: '', cantidad: 1, centro_acopio: '' });
-  const base = 'http://52.5.157.101:3000/api/logistica';
+  const base = '/api/logistica';
 
   const fetchItems = async () => {
     try {

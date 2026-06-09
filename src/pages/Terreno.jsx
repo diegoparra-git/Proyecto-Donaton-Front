@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 export default function Terreno({ token }) {
   const [reportes, setReportes] = useState([]);
   const [nuevo, setNuevo] = useState({ sede: '', tipo: 'necesidad', descripcion: '', creadoPor: 'voluntario' });
-  const base = 'http://52.5.157.101:3000/api/terreno';
+  const base = '/api/terreno';
 
   const fetchReportes = async () => {
     try {

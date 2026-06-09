@@ -5,7 +5,7 @@ export default function Donaciones({ token }) {
   const [loading, setLoading] = useState(false);
   const [nuevo, setNuevo] = useState({ nombreDonante: '', recurso: '', cantidad: 1, unidadMedida: 'Unidades', tipoDonante: 'Individual' });
 
-  const base = 'http://52.5.157.101:3000/api/donaciones';
+  const base = '/api/donaciones';
 
   const fetchDonaciones = async () => {
     setLoading(true);

@@ -9,7 +9,7 @@ export default function NavBar({ token, onLogin }) {
     e.preventDefault();
     setLoading(true);
     try {
-      const res = await fetch('http://52.5.157.101:3000/api/auth/login', {
+      const res = await fetch('/api/auth/login', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ usuario, password })
