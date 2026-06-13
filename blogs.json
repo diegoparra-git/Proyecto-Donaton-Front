@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "noticia": "Gran éxito en la Donatón de Invierno: Superamos la meta",
+    "descripcion": "La comunidad logró reunir más de 5 toneladas de ropa de abrigo y alimentos no perecibles para las familias vulnerables de la región durante la última campaña solidaria.",
+    "fuente": "Diario La Comunidad",
+    "fecha": "2026-06-10",
+    "link": "https://www.ejemplo.cl/noticias/donaton-invierno-exito",
+    "imagen": "https://images.unsplash.com/photo-1532629345422-7515f3d16bb0?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 2,
+    "noticia": "Lanzamiento oficial de la nueva plataforma web Donatón",
+    "descripcion": "Estudiantes universitarios desarrollan y lanzan un portal web innovador para facilitar la recolección de fondos, transparentar los gastos y conectar directamente con los donantes.",
+    "fuente": "Portal Universitario",
+    "fecha": "2026-05-28",
+    "link": "https://www.ejemplo.cl/tecnologia/lanzamiento-plataforma-donaton",
+    "imagen": "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 3,
+    "noticia": "Empresas locales se suman a la meta solidaria",
+    "descripcion": "Más de 20 pymes y grandes empresas han firmado un convenio para duplicar los aportes ciudadanos realizados a través de la página oficial de Donatón.",
+    "fuente": "Noticias Empresariales",
+    "fecha": "2026-06-05",
+    "link": "https://www.ejemplo.cl/economia/empresas-apoyan-donaton",
+    "imagen": "https://images.unsplash.com/photo-1556761175-5973dc0f32d7?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 4,
+    "noticia": "Historias que inspiran: El impacto real de tu donación",
+    "descripcion": "Conoce los testimonios de las personas beneficiadas en la última edición de la Donatón y descubre cómo el aporte ciudadano está transformando vidas.",
+    "fuente": "Fundación Solidaria",
+    "fecha": "2026-06-12",
+    "link": "https://www.ejemplo.cl/sociedad/impacto-real-donaciones",
+    "imagen": "https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?auto=format&fit=crop&w=800&q=80"
+  }
+]

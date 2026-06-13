@@ -10,6 +10,7 @@ import NavBar from "./components/organism/NavBar";
 import Donaciones from "./pages/Donaciones";
 import Logistica from "./pages/Logistica";
 import Terreno from "./pages/Terreno";
+import Blogs from "./pages/Blogs";
 
 /**
  * App - Componente principal
@@ -74,6 +75,7 @@ function App() {
       {route === '/donaciones' && <Donaciones token={token} />}
       {route === '/logistica' && <Logistica token={token} />}
       {route === '/terreno' && <Terreno token={token} />}
+      {route === '/blogs' && <Blogs/>}
     </div>
   );
 }

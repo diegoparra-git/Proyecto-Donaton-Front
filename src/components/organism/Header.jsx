@@ -19,6 +19,7 @@ function Header({ onDonateClick = () => {} }) {
     const navLinks = [
         { label: "Causa", href: "#cause" },
         { label: "Impacto", href: "#impact" },
+        { label: "Blogs", href: "#/blogs" },
         { label: "FAQ", href: "#faq" },
         { label: "Contacto", href: "#contact" },
     ];
